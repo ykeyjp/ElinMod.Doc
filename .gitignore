@@ -1,0 +1,7 @@
+# Hugo output
+resources/
+themes/
+.hugo_build.lock
+
+# Editor
+.vscode/
