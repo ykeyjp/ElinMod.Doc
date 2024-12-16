@@ -1,0 +1,5 @@
+html,
+:host {
+  font-family: "Source Code Pro", "Zen Kaku Gothic New", sans-serif;
+  font-optical-sizing: auto;
+}

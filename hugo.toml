@@ -1,0 +1,58 @@
+baseURL = 'https://ykeyjp.github.io/ElinMod.Doc/'
+languageCode = 'ja-JP'
+theme = 'hextra'
+title = 'YK Elin Mod Doc'
+
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = false
+hasCJKLanguage = true
+defaultContentLanguage = 'ja'
+enableInlineShortcodes = true
+
+[module.imports]
+path = 'hextra'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[[menu.main]]
+name = 'Docs'
+pageRef = '/docs/'
+weight = 1
+[[menu.main]]
+name = 'About'
+pageRef = '/about/'
+weight = 2
+[[menu.main]]
+name = 'Search'
+weight = 3
+params.type = 'search'
+[[menu.main]]
+name = 'GitHub'
+weight = 4
+url = "https://github.com/ykeyjp/ElinMod"
+params.icon = 'github'
+
+[params]
+description = 'yk elin mod documents.'
+
+[params.navbar]
+displayTitle = true
+displayLogo = false
+width = 'full'
+
+[params.page]
+width = 'full'
+
+[params.footer]
+displayCopyright = true
+displayPoweredBy = false
+width = 'full'
+
+[params.editURL]
+enable = false
+base = ""

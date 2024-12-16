@@ -1,7 +1,12 @@
-# Hugo output
-resources/
-themes/
-.hugo_build.lock
+# Hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+hugo.exe
+hugo.darwin
+hugo.linux
+/.hugo_build.lock
 
 # Editor
 .vscode/
