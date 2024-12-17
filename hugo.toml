@@ -10,7 +10,7 @@ hasCJKLanguage = true
 defaultContentLanguage = 'ja'
 enableInlineShortcodes = true
 
-[module.imports]
+[[module.imports]]
 path = 'hextra'
 
 [markup.goldmark.renderer]
@@ -24,16 +24,12 @@ name = 'Docs'
 pageRef = '/docs/'
 weight = 1
 [[menu.main]]
-name = 'About'
-pageRef = '/about/'
-weight = 2
-[[menu.main]]
 name = 'Search'
-weight = 3
+weight = 2
 params.type = 'search'
 [[menu.main]]
 name = 'GitHub'
-weight = 4
+weight = 3
 url = "https://github.com/ykeyjp/ElinMod"
 params.icon = 'github'
 
