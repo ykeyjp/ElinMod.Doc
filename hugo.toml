@@ -32,6 +32,11 @@ name = 'GitHub'
 weight = 3
 url = "https://github.com/ykeyjp/ElinMod"
 params.icon = 'github'
+[[menu.main]]
+name = 'Discord'
+weight = 4
+url = "https://discord.gg/elona"
+params.icon = 'discord'
 
 [params]
 description = 'yk elin mod documents.'

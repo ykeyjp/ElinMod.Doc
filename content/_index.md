@@ -23,7 +23,7 @@ YK Framework の導入や利用、開発コンセプトなどを掲載します�
 Elinのデータ解析について具体例などを交えて掲載します。
 
 {{< cards >}}
-  {{< card link="docs/analysis/" title="UIデータ解析" icon="document-text" >}}
+  {{< card link="docs/analysis/" title="データ解析" icon="document-text" >}}
 {{< /cards >}}
 
 ## 参考資料
@@ -33,3 +33,8 @@ Mod製作に役立つ資料や情報を掲載します。
 {{< cards >}}
   {{< card link="docs/references/" title="参考資料" icon="document-text" >}}
 {{< /cards >}}
+
+## フィードバックについて
+
+Discord（Elonaサーバー）から`@cyrillejp`宛にメッセージをお送りください。
+
