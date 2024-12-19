@@ -19,7 +19,7 @@ body {
 
     background-image: url("../img/elin-portrait.png");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: right top 5rem;
 
     opacity: 0.3;
     pointer-events: none;
