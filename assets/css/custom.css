@@ -4,6 +4,29 @@ html,
   font-optical-sizing: auto;
 }
 
+body {
+
+  &::before {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    background-image: url("../img/elin-portrait.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    opacity: 0.3;
+    pointer-events: none;
+    user-select: none;
+  }
+}
+
 .gray {
   color: gray;
 }

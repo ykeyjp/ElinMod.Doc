@@ -43,8 +43,9 @@ description = 'yk elin mod documents.'
 
 [params.navbar]
 displayTitle = true
-displayLogo = false
+displayLogo = true
 width = 'full'
+logo.path = 'img/putty.png'
 
 [params.page]
 width = 'full'
