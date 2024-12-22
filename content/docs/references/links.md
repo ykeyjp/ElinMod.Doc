@@ -56,5 +56,6 @@ Elinに関するコミュニケーションはこの中で行われています�
 {{< cards >}}
   {{< card link="https://github.com/kuronekotei/ElinMOD" title="kuronekotei" icon="external-link" >}}
   {{< card link="https://github.com/yuzutuki/ElinMod" title="yuzutuki" icon="external-link" >}}
+  {{< card link="https://github.com/yuu1111?tab=repositories&q=elin" title="yuu" icon="external-link" >}}
   {{< card link="https://github.com/Drakeny?tab=repositories&q=Elin" title="Drakeny" icon="external-link" >}}
 {{< /cards >}}
