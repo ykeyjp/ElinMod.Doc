@@ -72,4 +72,78 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;p>これだけで導入は完了です。&lt;br>
-ゲーム起動中に&lt;code>F7&lt;/code>キー（初期設定）で&lt;code>Unity Explorer&lt;/code>を起動できます。&lt;/p></description></item><item><title>ステップ1 － データの操作</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</guid><description/></item><item><title>ステップ2 － UI要素の操作</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step2/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step2/</guid><description/></item></channel></rss>
+ゲーム起動中に&lt;code>F7&lt;/code>キー（初期設定）で&lt;code>Unity Explorer&lt;/code>を起動できます。&lt;/p>
+&lt;h2>そのほかの解析用ツール&lt;span class="hx-absolute -hx-mt-20" id="そのほかの解析用ツール">&lt;/span>
+&lt;a href="#%e3%81%9d%e3%81%ae%e3%81%bb%e3%81%8b%e3%81%ae%e8%a7%a3%e6%9e%90%e7%94%a8%e3%83%84%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://github.com/icsharpcode/ILSpy"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>&lt;/svg>ILSpy&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://github.com/dnSpy/dnSpy"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>&lt;/svg>dnSpy&lt;/span>&lt;/a>
+&lt;/div>
+&lt;p>どちらもC#のアセンブリを解析するのに役立つツールです。&lt;br>
+メンテナンスが続いているILSpyがオススメです。&lt;br>
+Elinのインストールフォルダーにある&lt;code>Elin_Data\Managed\Elin.dll&lt;/code>を起点に読み込むと良いでしょう。&lt;/p></description></item><item><title>ステップ1 － データの操作</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</guid><description>
+&lt;p>ここでは簡単な例として所持しているアイテムの個数の改変を通して、データの操作について触れてみます。&lt;/p>
+&lt;h2>対象のアイテム（粗末な矢）&lt;span class="hx-absolute -hx-mt-20" id="対象のアイテム粗末な矢">&lt;/span>
+&lt;a href="#%e5%af%be%e8%b1%a1%e3%81%ae%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e7%b2%97%e6%9c%ab%e3%81%aa%e7%9f%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>今回はコンテナ（木箱）に入った粗末な矢を例にします。&lt;br>
+画像から木箱の中に1本の矢があることを確認してください。&lt;/p>
+&lt;p>
+&lt;img src=".././step1_1.png" alt="" loading="lazy" />&lt;/p>
+&lt;h2>インスペクターを起動する&lt;span class="hx-absolute -hx-mt-20" id="インスペクターを起動する">&lt;/span>
+&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%9a%e3%82%af%e3%82%bf%e3%83%bc%e3%82%92%e8%b5%b7%e5%8b%95%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;code>Unity Explorer&lt;/code>を起動します。初期設定では&lt;code>F7&lt;/code>キーで起動します。&lt;br>
+起動すると画像のようなツールバーがウィンドウ上部に表示されます。&lt;/p>
+&lt;p>
+&lt;img src=".././step1_2.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>ツールバーから&lt;code>Inspector&lt;/code>を選択します。&lt;br>
+ポップアップした&lt;code>Inspector&lt;/code>ウィンドウの&lt;code>Mouse Inspect&lt;/code>から&lt;code>UI&lt;/code>を選択します。&lt;/p>
+&lt;p>
+&lt;img src=".././step1_3.png" alt="" loading="lazy" />&lt;/p>
+&lt;h2>調べたいもの（粗末な矢）を選択&lt;span class="hx-absolute -hx-mt-20" id="調べたいもの粗末な矢を選択">&lt;/span>
+&lt;a href="#%e8%aa%bf%e3%81%b9%e3%81%9f%e3%81%84%e3%82%82%e3%81%ae%e7%b2%97%e6%9c%ab%e3%81%aa%e7%9f%a2%e3%82%92%e9%81%b8%e6%8a%9e" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>画像のように選択モードに切り替わるので、木箱の中の粗末な矢を左クリックします。
+&lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-yellow-100 hx-bg-yellow-50 hx-text-yellow-900 dark:hx-border-yellow-200/30 dark:hx-bg-yellow-700/30 dark:hx-text-yellow-200">
+&lt;div class="ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2">&lt;div class="hx-select-none hx-text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">⚠️&lt;/div>&lt;/div>
+&lt;div class="hx-w-full hx-min-w-0 hx-leading-7">
+&lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0">※左クリックはアイテムを持つ動作と同じで矢を掴んでしまうので同じスロットに戻しておきましょう。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;p>
+&lt;img src=".././step1_4.png" alt="" loading="lazy" />&lt;/p>
+&lt;h2>アイテム（粗末な矢）のデータを辿る&lt;span class="hx-absolute -hx-mt-20" id="アイテム粗末な矢のデータを辿る">&lt;/span>
+&lt;a href="#%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e7%b2%97%e6%9c%ab%e3%81%aa%e7%9f%a2%e3%81%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e8%be%bf%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>画像のように&lt;code>UI Inspector Results&lt;/code>に結果が表示されたら、&lt;code>ButtonGrid&lt;/code>をクリックします。&lt;/p>
+&lt;p>
+&lt;img src=".././step1_5.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>次に&lt;code>Inspector&lt;/code>ウィンドウが切り替わったら画像の&lt;code>Component&lt;/code>セクションの&lt;code>ButtonGrid&lt;/code>をクリックします。&lt;/p>
+&lt;p>
+&lt;img src=".././step1_6.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>その中に粗末な矢を参照している&lt;code>Thing&lt;/code>がありますので、&lt;code>Inspect&lt;/code>をクリックします。&lt;/p>
+&lt;p>
+&lt;img src=".././step1_7.png" alt="" loading="lazy" />&lt;/p>
+&lt;h2>データ（個数）を改変する&lt;span class="hx-absolute -hx-mt-20" id="データ個数を改変する">&lt;/span>
+&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e5%80%8b%e6%95%b0%e3%82%92%e6%94%b9%e5%a4%89%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ここまで来るとアイテムのデータを参照できるところまで来ています。&lt;br>
+リストの中から&lt;code>Card.Num&lt;/code>を探します。&lt;/p>
+&lt;p>
+&lt;img src=".././step1_8.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>元が1本なので&lt;code>1&lt;/code>と表示されています。ここでは例に&lt;code>10&lt;/code>に書き換えてみます。&lt;br>
+書き換えた後に&lt;code>Apply&lt;/code>をクリックするとデータが反映されます。&lt;/p>
+&lt;p>
+&lt;img src=".././step1_9.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>木箱の中の粗末な矢を確認すると10本に変わっています。&lt;/p>
+&lt;p>
+&lt;img src=".././step1_10.png" alt="" loading="lazy" />&lt;/p>
+&lt;h2>まとめ&lt;span class="hx-absolute -hx-mt-20" id="まとめ">&lt;/span>
+&lt;a href="#%e3%81%be%e3%81%a8%e3%82%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>インスペクターで&lt;code>ButtonGrid&lt;/code>を辿るなどの判断は経験則になってきますが、&lt;br>
+このようにして特定のアイテムのデータを探し当て、データを改変することができました。&lt;/p>
+&lt;p>アイテムやキャラクターにはどのようなデータ（値）があるのか、&lt;br>
+それは単体で改変が可能なものなのか、それとも演算や計算によって参照されるデータなのか、&lt;br>
+など、インスペクターだけでも様々な情報を得ることができます。&lt;/p>
+&lt;p>ぜひともご活用ください。&lt;/p></description></item><item><title>ステップ2 － UI要素の操作</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step2/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step2/</guid><description>
+&lt;p>UIの操作においてはGameObjectやComponentの深い沼に足を踏み入れることになるので、ここでは軽く触れる程度に留めておきます。&lt;/p>
+&lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-yellow-100 hx-bg-yellow-50 hx-text-yellow-900 dark:hx-border-yellow-200/30 dark:hx-bg-yellow-700/30 dark:hx-text-yellow-200">
+&lt;div class="ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2">&lt;div class="hx-select-none hx-text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">⚠️&lt;/div>&lt;/div>
+&lt;div class="hx-w-full hx-min-w-0 hx-leading-7">
+&lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0">解説用サンプルの選定中．．．&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
