@@ -51,3 +51,15 @@ ZIPファイルの内容物を次の構成になるようにコピーしてく�
 
 これだけで導入は完了です。  
 ゲーム起動中に`F7`キー（初期設定）で`Unity Explorer`を起動できます。
+
+
+## そのほかの解析用ツール
+
+{{< cards >}}
+  {{< card link="https://github.com/icsharpcode/ILSpy" title="ILSpy" icon="external-link" >}}
+  {{< card link="https://github.com/dnSpy/dnSpy" title="dnSpy" icon="external-link" >}}
+{{< /cards >}}
+
+どちらもC#のアセンブリを解析するのに役立つツールです。  
+メンテナンスが続いているILSpyがオススメです。  
+Elinのインストールフォルダーにある`Elin_Data\Managed\Elin.dll`を起点に読み込むと良いでしょう。
