@@ -33,8 +33,13 @@ weight = 3
 url = "https://github.com/ykeyjp/ElinMod"
 params.icon = 'github'
 [[menu.main]]
-name = 'Discord'
+name = 'X'
 weight = 4
+url = "https://x.com/ykeyjp"
+params.icon = 'x-twitter'
+[[menu.main]]
+name = 'Discord'
+weight = 5
 url = "https://discord.gg/elona"
 params.icon = 'discord'
 

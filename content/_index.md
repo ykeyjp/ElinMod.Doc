@@ -44,5 +44,6 @@ Mod製作に役立つ資料や情報を掲載します。
 
 ## フィードバックについて
 
+Xから[@ykeyjp](https://x.com/ykeyjp)にDMをお送りいただくか、  
 Discord（Elonaサーバー）から`@cyrillejp`宛にメッセージをお送りください。
 
