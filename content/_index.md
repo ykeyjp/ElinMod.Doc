@@ -18,6 +18,14 @@ YK Framework の導入や利用、開発コンセプトなどを掲載します�
   {{< card link="docs/framework/" title="YK Framework" icon="document-text" >}}
 {{< /cards >}}
 
+## YK DevTool
+
+YK DevTool の導入や利用、開発コンセプトなどを掲載します。
+
+{{< cards >}}
+  {{< card link="docs/devtool/" title="YK DevTool" icon="document-text" >}}
+{{< /cards >}}
+
 ## データ解析
 
 Elinのデータ解析について具体例などを交えて掲載します。
