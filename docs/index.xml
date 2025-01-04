@@ -1,8 +1,16 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YK Elin Mod Doc – ドキュメント</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/</link><description>Recent content in ドキュメント on YK Elin Mod Doc</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 16 Dec 2024 00:00:00 +0900</lastBuildDate><atom:link href="https://ykeyjp.github.io/ElinMod.Doc/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Window</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/window/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/window/</guid><description>
-&lt;p>&lt;code>Layer&lt;/code>と&lt;code>Window&lt;/code>はElinのクラスです。YK Frameworkでは&lt;code>Layer&lt;/code>から&lt;code>Window&lt;/code>を生成する拡張メソッドを定義しています。&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YK Elin Mod Doc – ドキュメント</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/</link><description>Recent content in ドキュメント on YK Elin Mod Doc</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 16 Dec 2024 00:00:00 +0900</lastBuildDate><atom:link href="https://ykeyjp.github.io/ElinMod.Doc/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>導入</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/introduction/</link><pubDate>Sat, 04 Jan 2025 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/introduction/</guid><description>
+&lt;h2>Modのサブスクライブ&lt;span class="hx-absolute -hx-mt-20" id="modのサブスクライブ">&lt;/span>
+&lt;a href="#mod%e3%81%ae%e3%82%b5%e3%83%96%e3%82%b9%e3%82%af%e3%83%a9%e3%82%a4%e3%83%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>SteamワークショップからYK Frameworkを購読します。&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://steamcommunity.com/sharedfiles/filedetails/?id=3400020753"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>&lt;/svg>YK Framework on Steam&lt;/span>&lt;/a>
+&lt;/div>
+&lt;h2>開発ツールの参照設定&lt;span class="hx-absolute -hx-mt-20" id="開発ツールの参照設定">&lt;/span>
+&lt;a href="#%e9%96%8b%e7%99%ba%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae%e5%8f%82%e7%85%a7%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Unity,Visual Studio,Visual Studio Codeなどお使いの開発ツールの参照設定でYK FrameworkのDLL参照を追加してください。&lt;/p>
+&lt;p>Windowの場合は下記のパスにダウンロードされています。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">Window&lt;/span> &lt;span class="n">Layer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">width&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">height&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">caption&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Window&lt;/span> &lt;span class="n">Layer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Setting&lt;/span> &lt;span class="n">setting&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;pre>&lt;code>C:\Program Files (x86)\Steam\steamapps\workshop\content\2135150\3400020753\YKFramework.dll&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -12,46 +20,25 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;h2>引数&lt;span class="hx-absolute -hx-mt-20" id="引数">&lt;/span>
-&lt;a href="#%e5%bc%95%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>引数&lt;/th>
-&lt;th>型&lt;/th>
-&lt;th>説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>width&lt;/td>
-&lt;td>int&lt;/td>
-&lt;td>ウィンドウの幅&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>height&lt;/td>
-&lt;td>int&lt;/td>
-&lt;td>ウィンドウの高さ&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>caption&lt;/td>
-&lt;td>string&lt;/td>
-&lt;td>ウィンドウのキャプション（タイトル）&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>setting&lt;/td>
-&lt;td>Window.Setting&lt;/td>
-&lt;td>Window.Setting構造体を使ってWindowを生成&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;h2>実際にコードを書いてみる&lt;span class="hx-absolute -hx-mt-20" id="実際にコードを書いてみる">&lt;/span>
+&lt;a href="#%e5%ae%9f%e9%9a%9b%e3%81%ab%e3%82%b3%e3%83%bc%e3%83%89%e3%82%92%e6%9b%b8%e3%81%84%e3%81%a6%e3%81%bf%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>次の&lt;a href="https://ykeyjp.github.io/ElinMod.Doc/ElinMod.Doc/docs/framework/layer/" >レイヤーの作成&lt;/a>セクションで実際にUIを構築してみましょう。&lt;/p></description></item><item><title>Layer</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layer/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layer/</guid><description>
+&lt;p>Elinのプログラムにおいて、本来&lt;code>Layer&lt;/code>と&lt;code>Window&lt;/code>は別々の機能を持つオブジェクトですが、&lt;br>
+本フレームワークではUIの構築を簡素化するため、&lt;code>Layer&lt;/code>に１つの&lt;code>Window&lt;/code>を内包する構成で生成しています。&lt;/p>
+&lt;p>レイヤーを定義する際にいくつかの上書き可能なオプションがあります。&lt;/p>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>YK Frameworkの&lt;code>BuildUI&lt;/code>クラスは&lt;code>Layer&lt;/code>を継承しているので、&lt;code>this.Window()&lt;/code>で&lt;code>Window&lt;/code>を生成可能です。&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">CustomLayer&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">YKLayer&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Thing&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">CreateTab&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomTab&lt;/span>&lt;span class="p">&amp;gt;(&lt;/span>&lt;span class="s">&amp;#34;タブ名&amp;#34;&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">_&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Tab Name&amp;#34;&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="s">&amp;#34;タブに割り振るID&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// ウィンドウのデフォルトのタイトル（タブ生成時にタブの名称で置き換えられる）&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">Title&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">get&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">&amp;#34;ウィンドウ&amp;#34;&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">_&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Window&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// ウィンドウのサイズを宣言（デフォルトは 640x480）&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">Rect&lt;/span> &lt;span class="n">Bound&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">get&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">Rect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -147,30 +134,7 @@ target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-fon
 &lt;/div>
 &lt;p>どちらもC#のアセンブリを解析するのに役立つツールです。&lt;br>
 メンテナンスが続いているILSpyがオススメです。&lt;br>
-Elinのインストールフォルダーにある&lt;code>Elin_Data\Managed\Elin.dll&lt;/code>を起点に読み込むと良いでしょう。&lt;/p></description></item><item><title>導入</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/introduction/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/introduction/</guid><description>
-&lt;h2>Modのサブスクライブ&lt;span class="hx-absolute -hx-mt-20" id="modのサブスクライブ">&lt;/span>
-&lt;a href="#mod%e3%81%ae%e3%82%b5%e3%83%96%e3%82%b9%e3%82%af%e3%83%a9%e3%82%a4%e3%83%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>SteamワークショップからYK Frameworkを購読します。&lt;/p>
-&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
-&lt;a
-class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://steamcommunity.com/sharedfiles/filedetails/?id=3379866147"
-target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>&lt;/svg>YK Framework on Steam&lt;/span>&lt;/a>
-&lt;/div>
-&lt;h2>開発ツールの参照設定&lt;span class="hx-absolute -hx-mt-20" id="開発ツールの参照設定">&lt;/span>
-&lt;a href="#%e9%96%8b%e7%99%ba%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae%e5%8f%82%e7%85%a7%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Unity,Visual Studio,Visual Studio Codeなどお使いの開発ツールの参照設定でYK FrameworkのDLL参照を追加してください。&lt;/p>
-&lt;p>Windowの場合は下記のパスにダウンロードされています。&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code>C:\Program Files (x86)\Steam\steamapps\workshop\content\2135150\3379866147\YkeyFramework.dll&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-&lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;h2>実際にコードを書いてみる&lt;span class="hx-absolute -hx-mt-20" id="実際にコードを書いてみる">&lt;/span>
-&lt;a href="#%e5%ae%9f%e9%9a%9b%e3%81%ab%e3%82%b3%e3%83%bc%e3%83%89%e3%82%92%e6%9b%b8%e3%81%84%e3%81%a6%e3%81%bf%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>次の&lt;a href="https://ykeyjp.github.io/ElinMod.Doc/ElinMod.Doc/docs/framework/layer/" >レイヤーの作成&lt;/a>セクションで実際にUIを構築してみましょう。&lt;/p></description></item><item><title>内部リソース</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/references/prefab/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/references/prefab/</guid><description>
+Elinのインストールフォルダーにある&lt;code>Elin_Data\Managed\Elin.dll&lt;/code>を起点に読み込むと良いでしょう。&lt;/p></description></item><item><title>内部リソース</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/references/prefab/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/references/prefab/</guid><description>
 &lt;h2>リソースID&lt;span class="hx-absolute -hx-mt-20" id="リソースid">&lt;/span>
 &lt;a href="#%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9id" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>UnityのPrefabに格納されているデータ（いわゆるGameObject）のリソースIDで、
 &lt;code>UnityEngine.Resources.Load&lt;/code>メソッドで呼び出せる文字列形式のキーを収集したリストです。&lt;/p>
@@ -239,14 +203,12 @@ class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hid
 &lt;p>アイテムやキャラクターにはどのようなデータ（値）があるのか、&lt;br>
 それは単体で改変が可能なものなのか、それとも演算や計算によって参照されるデータなのか、&lt;br>
 など、インスペクターだけでも様々な情報を得ることができます。&lt;/p>
-&lt;p>ぜひともご活用ください。&lt;/p></description></item><item><title>LayoutV</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layoutv/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layoutv/</guid><description>
+&lt;p>ぜひともご活用ください。&lt;/p></description></item><item><title>Vertical</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/vertical/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/vertical/</guid><description>
 &lt;p>要素を縦に積み上げる（ぶら下げる？）レイアウトを生成します。&lt;br>
-LayoutVはLayoutBaseを継承しているので、ほかの要素を子要素として生成できます。&lt;br>
+VerticalはYKLayoutを継承しているので、ほかの要素を子要素として生成できます。&lt;br>
 生成した順番に並ぶので処理の順序に注意してください。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">LayoutV&lt;/span> &lt;span class="n">Window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertical&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">LayoutBase&lt;/span> &lt;span class="n">Window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Tab&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">title&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">LayoutV&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertical&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">float?&lt;/span> &lt;span class="n">size&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">YKVertical&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertical&lt;/span>&lt;span class="p">()&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -267,45 +229,17 @@ title="Copy code"
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>title&lt;/td>
-&lt;td>string&lt;/td>
-&lt;td>タブのタイトル&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>size&lt;/td>
-&lt;td>float&lt;/td>
-&lt;td>固定する場合のサイズ（幅と高さのどちらが対象かは親要素次第）&lt;/td>
+&lt;td>なし&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">vertical&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertical&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-&lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;code>Window.Tab()&lt;/code>メソッドはウィンドウにタブを付けてページ切り替え機能を提供します。&lt;br>
-返り値は&lt;code>LayoutV&lt;/code>なので標準は縦に積み上げるレイアウトになります。&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">tab1&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Tab&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;タブ１&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">tab2&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Tab&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;タブ２&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="k">group&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Vertical&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -317,20 +251,17 @@ title="Copy code"
 &lt;/div>
 &lt;/div></description></item><item><title>レイヤー（Window）作成</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/layer/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/layer/</guid><description>
 &lt;p>まず始めにWindow（レイヤー）を定義します。&lt;/p>
-&lt;p>Winddowに渡したいデータがあれば、&lt;code>IBuildUIArgs&lt;/code>を継承した構造体にプロパティを定義しておきます。&lt;br>
+&lt;p>レイヤーの生成時にオブジェクトを引数で渡すことができます。&lt;br>
 例えばキャラクターを参照するようなUIを作る場合には&lt;code>Chara&lt;/code>をプロパティに含めます。&lt;br>
-アイテムであれば&lt;code>Thing&lt;/code>をプロパティに含めます。&lt;br>
-ここでは一例ですので空の構造体とします。&lt;/p>
+アイテムであれば&lt;code>Thing&lt;/code>をプロパティに含めます。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">struct&lt;/span> &lt;span class="nc">CustomArgs&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">IBuildUIArgs&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">CustomWindow&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">CustomLayer&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">YKLayer&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Thing&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">CreateTab&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomTab&lt;/span>&lt;span class="p">&amp;gt;(&lt;/span>&lt;span class="s">&amp;#34;タブ名&amp;#34;&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">_&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Tab Name&amp;#34;&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="s">&amp;#34;タブに割り振るID&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 複数のタブが必要な場合は続けて宣言&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">CreateTab&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Custom2Tab&lt;/span>&lt;span class="p">&amp;gt;(&lt;/span>&lt;span class="s">&amp;#34;タブ名2&amp;#34;&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">_&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Tab Name2&amp;#34;&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="s">&amp;#34;タブに割り振るID2&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
@@ -342,12 +273,45 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;code>BuildUI&lt;/code>を継承したクラスでUIを構築する処理を記述します。&lt;code>Setup&lt;/code>はその処理を記述するメソッドです。&lt;br>
-引数で&lt;code>IBuildUIArgs&lt;/code>を経書した構造体が渡されますので、&lt;code>Chara&lt;/code>や&lt;code>Thing&lt;/code>の参照はここから取得してください。&lt;/p>
-&lt;p>上の例で唯一記述されている&lt;code>this.Window&lt;/code>メソッドはUIのベースとなるウィンドウを生成する命令です。&lt;/p>
-&lt;p>定義したウィンドウは次のコードで呼び出すことができます。&lt;/p>
+&lt;p>タブの宣言もレイヤーと似た構成のクラスとなります。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">YUI&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">LoadUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomWindow&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;(&lt;/span>&lt;span class="k">new&lt;/span> &lt;span class="n">CustomArgs&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="p">});&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">CustomTab&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Thing&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// UIの宣言&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// レイヤー生成時に渡されるオブジェクトは this.Layer.Data で取得できます。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Thing&lt;/span> &lt;span class="n">thing&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Layer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Data&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;code>YKLayout&lt;/code>を継承したクラスでUIを構築する処理を記述します。&lt;code>OnLayout&lt;/code>はその処理を記述するメソッドです。&lt;/p>
+&lt;p>定義したレイヤーは次のコードで呼び出すことができます。&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">YK&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">CreateLayer&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomLayer&lt;/span>&lt;span class="p">&amp;gt;(&lt;/span>&lt;span class="n">thing&lt;/span>&lt;span class="p">);&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>オブジェクトの参照が必要なければ次のような呼び出しも可能です。&lt;br>
+この場合レイヤーの宣言時は &lt;code>object&lt;/code> を割り当ててください。&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">CustomLayer&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">YKLayer&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">object&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">{}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">YK&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">CreateLayer&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomLayer&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -359,18 +323,17 @@ title="Copy code"
 &lt;/div>
 &lt;p>ここまでで定義された内容を箇条書きでまとめると次の通りです。&lt;/p>
 &lt;ol>
-&lt;li>&lt;code>CustomArgs&lt;/code>と言う構造体を宣言。データは何も持たない。&lt;/li>
-&lt;li>&lt;code>CustomWindow&lt;/code>と言うウィンドウを宣言。&lt;/li>
-&lt;li>&lt;code>YUI.LoadUI&lt;/code>メソッドで定義したウィンドウの呼び出しを命令。&lt;/li>
-&lt;li>サイズ&lt;code>640x480&lt;/code>のウィンドウが生成される（タイトルはとりあえず&lt;code>カスタムウィンドウ&lt;/code>）&lt;/li>
+&lt;li>&lt;code>CustomLayer&lt;/code>と言うレイヤーを宣言。&lt;/li>
+&lt;li>&lt;code>CustomTab&lt;/code>と言うタブを宣言。&lt;/li>
+&lt;li>&lt;code>YK.CreateLayer&lt;/code>メソッドで定義したレイヤーの生成を命令。&lt;/li>
+&lt;li>サイズ&lt;code>640x480&lt;/code>のウィンドウが生成される。&lt;/li>
 &lt;/ol>
-&lt;p>続いて&lt;a href="https://ykeyjp.github.io/ElinMod.Doc/ElinMod.Doc/docs/framework/element/" >UI要素の作成&lt;/a>セクションでウィンドウに配置するパーツについて学んでみましょう。&lt;/p></description></item><item><title>LayoutH</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layouth/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layouth/</guid><description>
-&lt;p>左から右に要素を並べるレイアウトを生成します。
-LayoutVはLayoutBaseを継承しているので、ほかの要素を子要素として生成できます。&lt;br>
+&lt;p>続いて&lt;a href="https://ykeyjp.github.io/ElinMod.Doc/ElinMod.Doc/docs/framework/element/" >UI要素の作成&lt;/a>セクションでウィンドウに配置するパーツについて学んでみましょう。&lt;/p></description></item><item><title>Horizontal</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/horizontal/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/horizontal/</guid><description>
+&lt;p>左から右に要素を並べるレイアウトを生成します。&lt;br>
+HorizontalはYKLayoutを継承しているので、ほかの要素を子要素として生成できます。&lt;br>
 生成した順番に並ぶので処理の順序に注意してください。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">LayoutH&lt;/span> &lt;span class="n">Window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Horizontal&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">LayoutH&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Horizontal&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">float?&lt;/span> &lt;span class="n">size&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">YKHorizontal&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Horizontal&lt;/span>&lt;span class="p">()&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -391,20 +354,17 @@ title="Copy code"
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>size&lt;/td>
-&lt;td>float&lt;/td>
-&lt;td>固定する場合のサイズ（幅と高さのどちらが対象かは親要素次第）&lt;/td>
+&lt;td>なし&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">horizontal&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Horizontal&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="k">group&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Horizontal&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -426,11 +386,9 @@ title="Copy code"
 UIの構造はツリー状のような構造で表現されます。&lt;/p>
 &lt;p>次の例では縦にテキストの「表示するテキスト１」「表示するテキスト２」と、ボタンの「ボタンのテキスト」が並ぶ構成です。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertical&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;表示するテキスト１&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;表示するテキスト２&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Button&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ボタンのテキスト&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Pressed!&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="p">});&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;表示するテキスト１&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;表示するテキスト２&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Button&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ボタンのテキスト&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Pressed!&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="p">});&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -442,18 +400,16 @@ title="Copy code"
 &lt;/div>
 &lt;p>構造を図で示すと次のようになります。&lt;/p>
 &lt;pre class="mermaid hx-mt-6">graph LR;
-Window-->Vertical;
-Vertical-->Text1;
-Vertical-->Text2;
-Vertical-->Button;&lt;/pre>&lt;p>順序は宣言した順になるので、ボタンなどのインタラクティブな要素で、ほかの要素を参照する処理が必要な場合は注意が必要です。&lt;br>
+Layer-->Tab;
+Tab-->Text1;
+Tab-->Text2;
+Tab-->Button;&lt;/pre>&lt;p>順序は宣言した順になるので、ボタンなどのインタラクティブな要素で、ほかの要素を参照する処理が必要な場合は注意が必要です。&lt;br>
 次の例のようにあらかじめ変数&lt;code>text&lt;/code>を宣言して対応します。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertical&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;表示するテキスト１&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIText&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Button&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ボタンのテキスト&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="cm">/* 変数[text]をゴニョゴニョする */&lt;/span> &lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;表示するテキスト２&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;表示するテキスト１&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIText&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Button&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ボタンのテキスト&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="cm">/* 変数[text]をゴニョゴニョする */&lt;/span> &lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;表示するテキスト２&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -463,15 +419,14 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>例に挙げた&lt;code>Vertical&lt;/code>や&lt;code>Text&lt;/code>意外にもたくさんのUI要素が用意されています。&lt;/p>
-&lt;p>これらは&lt;a href="https://ykeyjp.github.io/ElinMod.Doc/ElinMod.Doc/docs/framework/refferences/" >リファレンス&lt;/a>で詳細を確認できます。&lt;/p></description></item><item><title>LayoutS</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layouts/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layouts/</guid><description>
-&lt;p>LayoutVと同様に要素を縦に積み上げる（ぶら下げる？）レイアウトを生成します。&lt;br>
-LayoutSはスクロール可能な要素で、高さが上限に達するとスクロールバーが表示され、マウスホイールでスクロールが可能になります。&lt;br>
-LayoutSはLayoutBaseを継承しているので、ほかの要素を子要素として生成できます。&lt;br>
+&lt;p>例に挙げた&lt;code>Text&lt;/code>や&lt;code>Button&lt;/code>意外にもたくさんのUI要素が用意されています。&lt;/p>
+&lt;p>これらは&lt;a href="https://ykeyjp.github.io/ElinMod.Doc/ElinMod.Doc/docs/framework/refferences/" >リファレンス&lt;/a>で詳細を確認できます。&lt;/p></description></item><item><title>Scroll</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/scroll/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/scroll/</guid><description>
+&lt;p>Verticalと同様に要素を縦に積み上げる（ぶら下げる？）レイアウトを生成します。&lt;br>
+Scrollはスクロール可能な要素で、高さが上限に達するとスクロールバーが表示され、マウスホイールでスクロールが可能になります。&lt;br>
+ScrollはYKLayoutを継承しているので、ほかの要素を子要素として生成できます。&lt;br>
 生成した順番に並ぶので処理の順序に注意してください。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">LayoutBase&lt;/span> &lt;span class="n">Window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Scrollable&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">LayoutS&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Scroll&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">float?&lt;/span> &lt;span class="n">height&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">YKScroll&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Scroll&lt;/span>&lt;span class="p">()&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -492,20 +447,17 @@ title="Copy code"
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>size&lt;/td>
-&lt;td>float&lt;/td>
-&lt;td>固定する場合のサイズ（幅と高さのどちらが対象かは親要素次第）&lt;/td>
+&lt;td>なし&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">scrollable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Scrollable&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="k">group&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Scroll&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -515,9 +467,14 @@ title="Copy code"
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;/button>
 &lt;/div>
-&lt;/div></description></item><item><title>LayoutG</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layoutg/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/layoutg/</guid><description>
+&lt;/div></description></item><item><title>Grid</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/grid/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/grid/</guid><description>
+&lt;p>左から右に要素を並べるレイアウトを生成します。&lt;br>
+Horizontalとの違いは規定の個数以上は折り返して下に配置されることです。&lt;br>
+行と列のある格子状のレイアウトを表現できます。&lt;br>
+GridはYKLayoutを継承しているので、ほかの要素を子要素として生成できます。&lt;br>
+生成した順番に並ぶので処理の順序に注意してください。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">LayoutG&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Grid&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">float?&lt;/span> &lt;span class="n">size&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">YKGrid&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Grid&lt;/span>&lt;span class="p">()&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -538,21 +495,17 @@ title="Copy code"
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>size&lt;/td>
-&lt;td>float&lt;/td>
-&lt;td>固定する場合のサイズ（幅と高さのどちらが対象かは親要素次第）&lt;/td>
+&lt;td>なし&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">grid&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Grid&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="k">group&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Grid&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -618,7 +571,9 @@ target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-fon
 &lt;/div></description></item><item><title>Header</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/header/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/header/</guid><description>
 &lt;p>装飾されたテキストを生成します。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIItem&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Header&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Sprite&lt;/span>&lt;span class="p">?&lt;/span> &lt;span class="n">sprite&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">headerType&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">&amp;#34;Note&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">width&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">210f&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIItem&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Header&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Sprite&lt;/span>&lt;span class="p">?&lt;/span> &lt;span class="n">sprite&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIItem&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">HeaderCard&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Sprite&lt;/span>&lt;span class="p">?&lt;/span> &lt;span class="n">sprite&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIItem&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">HeaderSmall&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Sprite&lt;/span>&lt;span class="p">?&lt;/span> &lt;span class="n">sprite&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -648,27 +603,13 @@ title="Copy code"
 &lt;td>Sprite&lt;/td>
 &lt;td>テキストの頭に付けるアイコン&lt;/td>
 &lt;/tr>
-&lt;tr>
-&lt;td>headerType&lt;/td>
-&lt;td>string&lt;/td>
-&lt;td>Note、Card、Topicのいずれか&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>width&lt;/td>
-&lt;td>float&lt;/td>
-&lt;td>横幅&lt;/td>
-&lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">header&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Header&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ヘッダー１&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Header&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ヘッダー１&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -680,9 +621,13 @@ title="Copy code"
 &lt;/div>
 &lt;/div></description></item><item><title>Topic</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/topic/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/topic/</guid><description>
 &lt;p>２つのテキストを並べて表示する要素を生成します。
-ステータス能力のように名前＋ベース値のように表示される個所で使用されています。&lt;/p>
+ステータス能力のように名前＋ベース値のように表示される箇所で使用されています。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIItem&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Topic&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string?&lt;/span> &lt;span class="k">value&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIItem&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Topic&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string?&lt;/span> &lt;span class="k">value&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIItem&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">TopicAttribute&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string?&lt;/span> &lt;span class="k">value&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIItem&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">TopicDomain&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string?&lt;/span> &lt;span class="k">value&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIItem&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">TopicLeft&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string?&lt;/span> &lt;span class="k">value&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIItem&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">TopicPair&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string?&lt;/span> &lt;span class="k">value&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -716,13 +661,9 @@ title="Copy code"
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">topic&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Topic&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;テキスト１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;テキスト２&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Topic&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;テキスト１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;テキスト２&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -735,7 +676,11 @@ title="Copy code"
 &lt;/div></description></item><item><title>Text</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/text/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/text/</guid><description>
 &lt;p>装飾されていないテキストを生成します。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIText&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIText&lt;/span>&lt;span class="p">&amp;gt;?&lt;/span> &lt;span class="n">modify&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">float?&lt;/span> &lt;span class="n">width&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIText&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">FontColor&lt;/span> &lt;span class="n">color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">FontColor&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">DontChange&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIText&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">TextLong&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">FontColor&lt;/span> &lt;span class="n">color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">FontColor&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">DontChange&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIText&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">TextMedium&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">FontColor&lt;/span> &lt;span class="n">color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">FontColor&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">DontChange&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIText&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">TextSmall&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">FontColor&lt;/span> &lt;span class="n">color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">FontColor&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">DontChange&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIText&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">TextFlavor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">FontColor&lt;/span> &lt;span class="n">color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">FontColor&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">DontChange&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -761,27 +706,17 @@ title="Copy code"
 &lt;td>テキスト&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>modify&lt;/td>
-&lt;td>Action&amp;lt;UIText&amp;gt;&lt;/td>
-&lt;td>UITextの初期化完了前に実行するアクション&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>width&lt;/td>
-&lt;td>float&lt;/td>
-&lt;td>横幅&lt;/td>
+&lt;td>color&lt;/td>
+&lt;td>FontColor&lt;/td>
+&lt;td>色&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;code>modify&lt;/code>パラメーターは&lt;code>SkinType&lt;/code>や&lt;code>FontColor&lt;/code>の設定など、要素の初期化が完了する前（&lt;code>ApplySkin&lt;/code>メソッドが実行される前）に行いたい処理がある場合に使用します。&lt;/p>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;テキスト１&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;テキスト１&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -794,7 +729,7 @@ title="Copy code"
 &lt;/div></description></item><item><title>InputText</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/inputtext/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/inputtext/</guid><description>
 &lt;p>キーボードの入力を受け付けるインタラクティブ要素を生成します。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIInputText&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">InputText&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string?&lt;/span> &lt;span class="k">value&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="p">&amp;gt;?&lt;/span> &lt;span class="n">onchange&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">width&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">90f&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIInputText&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">InputText&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="p">&amp;gt;?&lt;/span> &lt;span class="n">onInput&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -821,29 +756,19 @@ title="Copy code"
 &lt;/tr>
 &lt;tr>
 &lt;td>onchange&lt;/td>
-&lt;td>Action&amp;lt;UIInputText&amp;gt;&lt;/td>
+&lt;td>Action&amp;lt;int&amp;gt;&lt;/td>
 &lt;td>値が変更される度に呼び出されるアクション&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>width&lt;/td>
-&lt;td>float&lt;/td>
-&lt;td>横幅&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">InputText&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;test&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">input&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">InputText&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;test&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">valueInt&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">txt&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">input&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Text&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// string&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">num&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">input&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Num&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// int&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">valueInt&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -856,7 +781,7 @@ title="Copy code"
 &lt;/div></description></item><item><title>Button</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/button/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/button/</guid><description>
 &lt;p>&lt;code>Button&lt;/code>はクリック可能な基本的なインタラクティブ要素です。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIButton&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Button&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIButton&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">action&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">width&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">110f&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIButton&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Button&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span> &lt;span class="n">action&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -883,97 +808,19 @@ title="Copy code"
 &lt;/tr>
 &lt;tr>
 &lt;td>action&lt;/td>
-&lt;td>Action&amp;lt;UIButton&amp;gt;&lt;/td>
+&lt;td>Action&lt;/td>
 &lt;td>ボタンを押下した時のアクション&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>width&lt;/td>
-&lt;td>float&lt;/td>
-&lt;td>ボタンの幅&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">btn&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Button&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ボタン１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">b&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Button&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ボタン１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Pressed!&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-&lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div></description></item><item><title>ButtonRow</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/buttonrow/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/buttonrow/</guid><description>
-&lt;p>&lt;code>ButtonRow&lt;/code>はボタンを並べるレイアウトを生成します。&lt;br>
-ボタンは&lt;code>AddButton&lt;/code>で生成します。&lt;br>
-ボタンのみ並べるレイアウトの場合に適します。&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">LayoutButtons&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ButtonRow&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIButton&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutButtons&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddButton&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIButton&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">action&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">width&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">110f&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-&lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;h2>引数&lt;span class="hx-absolute -hx-mt-20" id="引数">&lt;/span>
-&lt;a href="#%e5%bc%95%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>引数&lt;/th>
-&lt;th>型&lt;/th>
-&lt;th>説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>text&lt;/td>
-&lt;td>string&lt;/td>
-&lt;td>ボタンに表示するテキスト&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>action&lt;/td>
-&lt;td>Action&amp;lt;UIButton&amp;gt;&lt;/td>
-&lt;td>ボタンを押下した時のアクション&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>width&lt;/td>
-&lt;td>float&lt;/td>
-&lt;td>ボタンの幅&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">buttons&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ButtonRow&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">buttons&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddButton&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ボタン１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Pressed! (1)&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">buttons&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddButton&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ボタン２&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Pressed! (2)&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -986,7 +833,7 @@ title="Copy code"
 &lt;/div></description></item><item><title>Toggle</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/toggle/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/toggle/</guid><description>
 &lt;p>ON/OFFを切り替えるインタラクティブ要素を生成します。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIButton&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Toggle&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">bool&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">toggle&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">bool&lt;/span> &lt;span class="n">isOn&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIButton&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Toggle&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">bool&lt;/span> &lt;span class="n">isOn&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">bool&lt;/span>&lt;span class="p">&amp;gt;?&lt;/span> &lt;span class="n">onClick&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -1012,29 +859,25 @@ title="Copy code"
 &lt;td>トグルに添えるテキスト&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>toggle&lt;/td>
-&lt;td>Action&amp;lt;bool&amp;gt;&lt;/td>
-&lt;td>ON/OFFが切り替わる度に呼ばれるアクション&lt;/td>
-&lt;/tr>
-&lt;tr>
 &lt;td>isOn&lt;/td>
 &lt;td>bool&lt;/td>
 &lt;td>初期状態&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>toggle&lt;/td>
+&lt;td>Action&amp;lt;bool&amp;gt;&lt;/td>
+&lt;td>ON/OFFが切り替わる度に呼ばれるアクション&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">toggle&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Toggle&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;トグル１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">b&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Toggle&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;トグル１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">b&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">b&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -1047,7 +890,7 @@ title="Copy code"
 &lt;/div></description></item><item><title>Dropdown</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/dropdown/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/dropdown/</guid><description>
 &lt;p>ドロップダウン（プルダウン）要素を生成します。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UIDropdown&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Dropdown&lt;/span>&lt;span class="p">()&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIDropdown&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Dropdown&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;?&lt;/span> &lt;span class="n">list&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="p">&amp;gt;?&lt;/span> &lt;span class="n">action&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int?&lt;/span> &lt;span class="k">value&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -1067,165 +910,28 @@ title="Copy code"
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
-&lt;tr>
-&lt;td>なし&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">dropdown&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Dropdown&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 選択肢追加&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">dropdown&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Host&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddOptions&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s">&amp;#34;選択肢１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;選択肢２&amp;#34;&lt;/span>&lt;span class="p">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 選択肢クリア&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">dropdown&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Host&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ClearOptions&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-&lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div></description></item><item><title>Slider</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/slider/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/slider/</guid><description>
-&lt;p>&lt;code>Dropdown&lt;/code>の亜種でスライダー表現で選択を行うインタラクティブ要素を生成します。&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">UISlider&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Slider&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TValue&lt;/span>&lt;span class="p">&amp;gt;(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">index&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">IList&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TValue&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">list&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">TValue&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">onChange&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Func&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TValue&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;?&lt;/span> &lt;span class="n">getInfo&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-&lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;h2>引数&lt;span class="hx-absolute -hx-mt-20" id="引数">&lt;/span>
-&lt;a href="#%e5%bc%95%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>引数&lt;/th>
-&lt;th>型&lt;/th>
-&lt;th>説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>index&lt;/td>
-&lt;td>int&lt;/td>
-&lt;td>初期インデックス&lt;/td>
-&lt;/tr>
 &lt;tr>
 &lt;td>list&lt;/td>
-&lt;td>IList&amp;lt;TValue&amp;gt;&lt;/td>
+&lt;td>List&amp;lt;string&amp;gt;&lt;/td>
 &lt;td>選択肢のリスト&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>onChange&lt;/td>
-&lt;td>Action&amp;lt;int, TValue&amp;gt;&lt;/td>
-&lt;td>選択が変化する度に呼ばれるアクション&lt;/td>
+&lt;td>action&lt;/td>
+&lt;td>Action&amp;lt;int&amp;gt;&lt;/td>
+&lt;td>項目を変更する度に呼ばれるアクション&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>getInfo&lt;/td>
-&lt;td>Func&amp;lt;TValue, string&amp;gt;&lt;/td>
-&lt;td>リストのデータから表示するテキストを返す関数&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">slider&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Slider&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="s">&amp;#34;選択肢１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;選択肢２&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;選択肢３&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">idx&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">str&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">str&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">str&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="n">str&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-&lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div></description></item><item><title>SliderLabel</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/sliderlabel/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/sliderlabel/</guid><description>
-&lt;p>&lt;code>Slider&lt;/code>にラベルを付けるショートハンド。&lt;br>
-返る要素は&lt;code>LayoutH&lt;/code>で&lt;code>Text&lt;/code>と&lt;code>Slider&lt;/code>を並べています。&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">LayoutH&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SliderLabel&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TValue&lt;/span>&lt;span class="p">&amp;gt;(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">label&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">index&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">IList&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TValue&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">list&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Action&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">TValue&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">onChange&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Func&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TValue&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;?&lt;/span> &lt;span class="n">getInfo&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-&lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;h2>引数&lt;span class="hx-absolute -hx-mt-20" id="引数">&lt;/span>
-&lt;a href="#%e5%bc%95%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>引数&lt;/th>
-&lt;th>型&lt;/th>
-&lt;th>説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>label&lt;/td>
-&lt;td>string&lt;/td>
-&lt;td>ラベルテキスト&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>index&lt;/td>
+&lt;td>value&lt;/td>
 &lt;td>int&lt;/td>
 &lt;td>初期インデックス&lt;/td>
 &lt;/tr>
-&lt;tr>
-&lt;td>list&lt;/td>
-&lt;td>IList&amp;lt;TValue&amp;gt;&lt;/td>
-&lt;td>選択肢のリスト&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>onChange&lt;/td>
-&lt;td>Action&amp;lt;int, TValue&amp;gt;&lt;/td>
-&lt;td>選択が変化する度に呼ばれるアクション&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>getInfo&lt;/td>
-&lt;td>Func&amp;lt;TValue, string&amp;gt;&lt;/td>
-&lt;td>リストのデータから表示するテキストを返す関数&lt;/td>
-&lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">slider&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SliderLabel&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ラベル１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="s">&amp;#34;選択肢１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;選択肢２&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;選択肢３&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">idx&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">str&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">str&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">str&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="n">str&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Dropdown&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s">&amp;#34;選択肢１&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;選択肢２&amp;#34;&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">idx&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{},&lt;/span> &lt;span class="m">1&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -1239,7 +945,7 @@ title="Copy code"
 &lt;p>何も表示されない要素を生成します。&lt;br>
 要素間の余白作りに使用します。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">LayoutElement&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Spacer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">sizeY&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">sizeX&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">1&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIHost&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">LayoutElement&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">LayoutBase&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Spacer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">height&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">width&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">1&lt;/span>&lt;span class="p">)&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
@@ -1260,12 +966,12 @@ title="Copy code"
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>sizeY&lt;/td>
+&lt;td>height&lt;/td>
 &lt;td>int&lt;/td>
 &lt;td>縦方向のサイズ&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>sizeX&lt;/td>
+&lt;td>width&lt;/td>
 &lt;td>int&lt;/td>
 &lt;td>横方向のサイズ&lt;/td>
 &lt;/tr>
@@ -1273,13 +979,9 @@ title="Copy code"
 &lt;/table>
 &lt;h2>サンプル&lt;span class="hx-absolute -hx-mt-20" id="サンプル">&lt;/span>
 &lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="n">BuildUI&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">CustomArgs&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Setup&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">CustomArgs&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnLayout&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">window&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Window&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">640&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">480&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;カスタムウィンドウ&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">layout&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Vertial&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">var&lt;/span> &lt;span class="n">space&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">layout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Spacer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">50&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Spacer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">50&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
