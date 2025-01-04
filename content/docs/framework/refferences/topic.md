@@ -6,10 +6,14 @@ weight: 102
 ---
 
 ２つのテキストを並べて表示する要素を生成します。
-ステータス能力のように名前＋ベース値のように表示される個所で使用されています。
+ステータス能力のように名前＋ベース値のように表示される箇所で使用されています。
 
 ```C#
-UIHost<UIItem> LayoutBase.Topic(string text, string? value = null)
+UIItem YKLayout.Topic(string text, string? value = null)
+UIItem YKLayout.TopicAttribute(string text, string? value = null)
+UIItem YKLayout.TopicDomain(string text, string? value = null)
+UIItem YKLayout.TopicLeft(string text, string? value = null)
+UIItem YKLayout.TopicPair(string text, string? value = null)
 ```
 
 ## 引数
@@ -22,12 +26,8 @@ UIHost<UIItem> LayoutBase.Topic(string text, string? value = null)
 ## サンプル
 
 ```C#
-public override BuildUI<CustomArgs> Setup(CustomArgs args)
+public override void OnLayout()
 {
-    var window = this.Window(640, 480, "カスタムウィンドウ");
-    var layout = window.Vertial();
-    var topic = layout.Topic("テキスト１", "テキスト２");
-
-    return this;
+    layout.Topic("テキスト１", "テキスト２");
 }
 ```

@@ -9,29 +9,22 @@ weight: 204
 
 
 ```C#
-UIHost<UIDropdown> LayoutBase.Dropdown()
+UIDropdown YKLayout.Dropdown(List<string>? list = null, Action<int>? action = null, int? value = null)
 ```
 
 ## 引数
 |引数|型|説明|
 |--|--|--|
-|なし|||
+|list|List<string\>|選択肢のリスト|
+|action|Action<int\>|項目を変更する度に呼ばれるアクション|
+|value|int|初期インデックス|
 
 
 ## サンプル
 
 ```C#
-public override BuildUI<CustomArgs> Setup(CustomArgs args)
+public override void OnLayout()
 {
-    var window = this.Window(640, 480, "カスタムウィンドウ");
-    var layout = window.Vertial();
-    var dropdown = layout.Dropdown();
-
-    // 選択肢追加
-    dropdown.Host.AddOptions(["選択肢１", "選択肢２"]);
-    // 選択肢クリア
-    dropdown.Host.ClearOptions();
-
-    return this;
+    Dropdown(["選択肢１", "選択肢２"], (idx) => {}, 1);
 }
 ```

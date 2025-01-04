@@ -8,7 +8,9 @@ weight: 101
 装飾されたテキストを生成します。
 
 ```C#
-UIHost<UIItem> LayoutBase.Header(string text, Sprite? sprite = null, string headerType = "Note", float width = 210f)
+UIItem YKLayout.Header(string text, Sprite? sprite = null)
+UIItem YKLayout.HeaderCard(string text, Sprite? sprite = null)
+UIItem YKLayout.HeaderSmall(string text, Sprite? sprite = null)
 ```
 
 ## 引数
@@ -16,19 +18,13 @@ UIHost<UIItem> LayoutBase.Header(string text, Sprite? sprite = null, string head
 |--|--|--|
 |text|string|テキスト|
 |sprite|Sprite|テキストの頭に付けるアイコン|
-|headerType|string|Note、Card、Topicのいずれか|
-|width|float|横幅|
 
 
 ## サンプル
 
 ```C#
-public override BuildUI<CustomArgs> Setup(CustomArgs args)
+public override void OnLayout()
 {
-    var window = this.Window(640, 480, "カスタムウィンドウ");
-    var layout = window.Vertial();
-    var header = layout.Header("ヘッダー１");
-
-    return this;
+    Header("ヘッダー１");
 }
 ```

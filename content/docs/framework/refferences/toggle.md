@@ -8,29 +8,25 @@ weight: 203
 ON/OFFを切り替えるインタラクティブ要素を生成します。
 
 ```C#
-UIHost<UIButton> LayoutBase.Toggle(string text, Action<bool> toggle, bool isOn = false)
+UIButton YKLayout.Toggle(string text, bool isOn = false, Action<bool>? onClick = null)
 ```
 
 ## 引数
 |引数|型|説明|
 |--|--|--|
 |text|string|トグルに添えるテキスト|
-|toggle|Action\<bool\>|ON/OFFが切り替わる度に呼ばれるアクション|
 |isOn|bool|初期状態|
+|toggle|Action\<bool\>|ON/OFFが切り替わる度に呼ばれるアクション|
 
 
 ## サンプル
 
 ```C#
-public override BuildUI<CustomArgs> Setup(CustomArgs args)
+public override void OnLayout()
 {
-    var window = this.Window(640, 480, "カスタムウィンドウ");
-    var layout = window.Vertial();
-    var toggle = layout.Toggle("トグル１", (b) =>
+    Toggle("トグル１", (b) =>
     {
         Debug.Log(b);
     }, true);
-
-    return this;
 }
 ```

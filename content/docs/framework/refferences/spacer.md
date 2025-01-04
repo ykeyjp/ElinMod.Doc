@@ -9,25 +9,21 @@ weight: 301
 要素間の余白作りに使用します。
 
 ```C#
-UIHost<LayoutElement> LayoutBase.Spacer(int sizeY = 0, int sizeX = 1)
+UIHost<LayoutElement> LayoutBase.Spacer(int height, int width = 1)
 ```
 
 ## 引数
 |引数|型|説明|
 |--|--|--|
-|sizeY|int|縦方向のサイズ|
-|sizeX|int|横方向のサイズ|
+|height|int|縦方向のサイズ|
+|width|int|横方向のサイズ|
 
 
 ## サンプル
 
 ```C#
-public override BuildUI<CustomArgs> Setup(CustomArgs args)
+public override void OnLayout()
 {
-    var window = this.Window(640, 480, "カスタムウィンドウ");
-    var layout = window.Vertial();
-    var space = layout.Spacer(50);
-
-    return this;
+    Spacer(50);
 }
 ```

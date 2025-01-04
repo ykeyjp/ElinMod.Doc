@@ -1,7 +1,7 @@
 ---
 title: '導入'
 linkTitle: '導入'
-date: 2024-12-16T00:00:00+09:00
+date: 2025-01-04T00:00:00+09:00
 weight: 1
 ---
 
@@ -10,7 +10,7 @@ weight: 1
 SteamワークショップからYK Frameworkを購読します。
 
 {{< cards >}}
-  {{< card link="https://steamcommunity.com/sharedfiles/filedetails/?id=3379866147" title="YK Framework on Steam" icon="external-link" >}}
+  {{< card link="https://steamcommunity.com/sharedfiles/filedetails/?id=3400020753" title="YK Framework on Steam" icon="external-link" >}}
 {{< /cards >}}
 
 
@@ -20,7 +20,7 @@ Unity,Visual Studio,Visual Studio Codeなどお使いの開発ツールの参照
 
 Windowの場合は下記のパスにダウンロードされています。
 ```
-C:\Program Files (x86)\Steam\steamapps\workshop\content\2135150\3379866147\YkeyFramework.dll
+C:\Program Files (x86)\Steam\steamapps\workshop\content\2135150\3400020753\YKFramework.dll
 ```
 
 ## 実際にコードを書いてみる

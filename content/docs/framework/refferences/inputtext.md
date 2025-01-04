@@ -8,30 +8,24 @@ weight: 200
 キーボードの入力を受け付けるインタラクティブ要素を生成します。
 
 ```C#
-UIHost<UIInputText> LayoutBase.InputText(string? value = null, Action<int>? onchange = null, float width = 90f)
+UIInputText YKLayout.InputText(string text, Action<int>? onInput = null)
 ```
 
 ## 引数
 |引数|型|説明|
 |--|--|--|
 |value|string|初期データ|
-|onchange|Action\<UIInputText\>|値が変更される度に呼び出されるアクション|
-|width|float|横幅|
+|onchange|Action\<int\>|値が変更される度に呼び出されるアクション|
 
 
 ## サンプル
 
 ```C#
-public override BuildUI<CustomArgs> Setup(CustomArgs args)
+public override void OnLayout()
 {
-    var window = this.Window(640, 480, "カスタムウィンドウ");
-    var layout = window.Vertial();
-    layout.InputText("test", (input) => 
+    InputText("test", (valueInt) => 
     {
-        var txt = input.Text; // string
-        var num = input.Num; // int
+        Debug.Log(valueInt);
     });
-
-    return this;
 }
 ```

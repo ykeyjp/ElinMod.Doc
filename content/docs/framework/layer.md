@@ -5,44 +5,59 @@ date: 2024-12-16T00:00:00+09:00
 weight: 2
 ---
 
-
 まず始めにWindow（レイヤー）を定義します。
 
-Winddowに渡したいデータがあれば、`IBuildUIArgs`を継承した構造体にプロパティを定義しておきます。  
+レイヤーの生成時にオブジェクトを引数で渡すことができます。  
 例えばキャラクターを参照するようなUIを作る場合には`Chara`をプロパティに含めます。  
-アイテムであれば`Thing`をプロパティに含めます。  
-ここでは一例ですので空の構造体とします。
+アイテムであれば`Thing`をプロパティに含めます。
 
 ```C#
-public struct CustomArgs : IBuildUIArgs { }
-
-public class CustomWindow : BuildUI<CustomArgs>
+public class CustomLayer : YKLayer<Thing>
 {
-    public override BuildUI<CustomArgs> Setup(CustomArgs args)
+    public override void OnLayout()
     {
-        var window = this.Window(640, 480, "カスタムウィンドウ");
-
-        return this;
+        CreateTab<CustomTab>("タブ名"._("Tab Name"), "タブに割り振るID");
+        // 複数のタブが必要な場合は続けて宣言
+        CreateTab<Custom2Tab>("タブ名2"._("Tab Name2"), "タブに割り振るID2");
     }
 }
 ```
 
-`BuildUI`を継承したクラスでUIを構築する処理を記述します。`Setup`はその処理を記述するメソッドです。  
-引数で`IBuildUIArgs`を経書した構造体が渡されますので、`Chara`や`Thing`の参照はここから取得してください。
+タブの宣言もレイヤーと似た構成のクラスとなります。
+```C#
+public class CustomTab : YKLayout<Thing>
+{
+    public override void OnLayout()
+    {
+        // UIの宣言
+        // レイヤー生成時に渡されるオブジェクトは this.Layer.Data で取得できます。
+        Thing thing = Layer.Data;
+    }
+}
+```
 
-上の例で唯一記述されている`this.Window`メソッドはUIのベースとなるウィンドウを生成する命令です。
+`YKLayout`を継承したクラスでUIを構築する処理を記述します。`OnLayout`はその処理を記述するメソッドです。
 
-定義したウィンドウは次のコードで呼び出すことができます。
+定義したレイヤーは次のコードで呼び出すことができます。
 
 ```C#
-YUI.LoadUI<CustomWindow, CustomArgs>(new CustomArgs { });
+YK.CreateLayer<CustomLayer>(thing);
+```
+
+オブジェクトの参照が必要なければ次のような呼び出しも可能です。  
+この場合レイヤーの宣言時は `object` を割り当ててください。
+
+```C#
+public class CustomLayer : YKLayer<object> {}
+
+YK.CreateLayer<CustomLayer>();
 ```
 
 ここまでで定義された内容を箇条書きでまとめると次の通りです。
 
-1. `CustomArgs`と言う構造体を宣言。データは何も持たない。
-2. `CustomWindow`と言うウィンドウを宣言。
-3. `YUI.LoadUI`メソッドで定義したウィンドウの呼び出しを命令。
-4. サイズ`640x480`のウィンドウが生成される（タイトルはとりあえず`カスタムウィンドウ`）
+1. `CustomLayer`と言うレイヤーを宣言。
+2. `CustomTab`と言うタブを宣言。
+3. `YK.CreateLayer`メソッドで定義したレイヤーの生成を命令。
+4. サイズ`640x480`のウィンドウが生成される。
 
 続いて[UI要素の作成]({{% relref "element.md" %}})セクションでウィンドウに配置するパーツについて学んでみましょう。

@@ -8,28 +8,25 @@ weight: 103
 装飾されていないテキストを生成します。
 
 ```C#
-UIHost<UIText> LayoutBase.Text(string text, Action<UIText>? modify = null, float? width = null)
+UIText YKLayout.Text(string text, FontColor color = FontColor.DontChange)
+UIText YKLayout.TextLong(string text, FontColor color = FontColor.DontChange)
+UIText YKLayout.TextMedium(string text, FontColor color = FontColor.DontChange)
+UIText YKLayout.TextSmall(string text, FontColor color = FontColor.DontChange)
+UIText YKLayout.TextFlavor(string text, FontColor color = FontColor.DontChange)
 ```
 
 ## 引数
 |引数|型|説明|
 |--|--|--|
 |text|string|テキスト|
-|modify|Action\<UIText\>|UITextの初期化完了前に実行するアクション|
-|width|float|横幅|
-
-`modify`パラメーターは`SkinType`や`FontColor`の設定など、要素の初期化が完了する前（`ApplySkin`メソッドが実行される前）に行いたい処理がある場合に使用します。
+|color|FontColor|色|
 
 
 ## サンプル
 
 ```C#
-public override BuildUI<CustomArgs> Setup(CustomArgs args)
+public override void OnLayout()
 {
-    var window = this.Window(640, 480, "カスタムウィンドウ");
-    var layout = window.Vertial();
-    var text = layout.Text("テキスト１");
-
-    return this;
+    Text("テキスト１");
 }
 ```
