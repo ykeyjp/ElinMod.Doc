@@ -26,10 +26,10 @@ sidebar:
 ## 機能
 
 {{< cards >}}
-  {{< card link="" title="CharaEdit" image="" subtitle="キャラクターの編集" >}}
-  {{< card link="" title="ThingEdit" image="" subtitle="アイテムの編集" >}}
-  {{< card link="" title="BranchEdit" image="" subtitle="拠点の編集" >}}
-  {{< card link="" title="Teleport" image="" subtitle="ゾーン移動" >}}
-  {{< card link="" title="RecipeTool" image="" subtitle="レシピ習得状況の編集" >}}
-  {{< card link="" title="ThingGenerator" image="" subtitle="アイテム生成ツール" >}}
+  {{< card link="./edit-chara/" title="CharaEdit" image="" subtitle="キャラクターの編集" >}}
+  {{< card link="./edit-thing/" title="ThingEdit" image="" subtitle="アイテムの編集" >}}
+  {{< card link="./edit-branch/" title="BranchEdit" image="" subtitle="拠点の編集" >}}
+  {{< card link="./teleport/" title="Teleport" image="" subtitle="ゾーン移動" >}}
+  {{< card link="./recipe-tool/" title="RecipeTool" image="" subtitle="レシピ習得状況の編集" >}}
+  {{< card link="./thing-generator/" title="ThingGenerator" image="" subtitle="アイテム生成ツール" >}}
 {{< /cards >}}
