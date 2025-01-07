@@ -10,6 +10,9 @@ hasCJKLanguage = true
 defaultContentLanguage = 'ja'
 enableInlineShortcodes = true
 
+[frontmatter]
+lastmod = [ 'lastmod', ':git' ]
+
 [[module.imports]]
 path = 'hextra'
 
