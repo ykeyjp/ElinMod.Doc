@@ -30,3 +30,7 @@ body {
 .gray {
   color: gray;
 }
+
+.content :where(figure img) {
+  margin-left: 0;
+}

@@ -23,13 +23,33 @@ sidebar:
   {{< card link="https://steamcommunity.com/sharedfiles/filedetails/?id=3400020855" title="YK DevTool on Steam" icon="external-link" >}}
 {{< /cards >}}
 
+
+## メニュー
+
+システムメニューやキャラ・アイテムをミドルクリックすると操作メニューが表示されます。
+
+{{< figure src="img/system-menu.png" >}}
+
+### システムメニュー → ツール → 開発ツール
+
+メインウィンドウを表示するメニューです。
+
+### システムメニュー → ツール → レシピツール
+
+レシピ習得状況を編集するメニューです。
+
+### システムメニュー → ツール → アイテム生成ツール
+
+アイテムを生成するツールを表示するメニューです。
+
 ## 機能
 
 {{< cards >}}
+  {{< card link="./main/" title="Main" image="" subtitle="開発ツール" >}}
   {{< card link="./edit-chara/" title="CharaEdit" image="" subtitle="キャラクターの編集" >}}
   {{< card link="./edit-thing/" title="ThingEdit" image="" subtitle="アイテムの編集" >}}
-  {{< card link="./edit-branch/" title="BranchEdit" image="" subtitle="拠点の編集" >}}
-  {{< card link="./teleport/" title="Teleport" image="" subtitle="ゾーン移動" >}}
+  {{< card link="./main/" title="BranchEdit" image="" subtitle="拠点の編集" >}}
+  {{< card link="./main/" title="Teleport" image="" subtitle="ゾーン移動" >}}
   {{< card link="./recipe-tool/" title="RecipeTool" image="" subtitle="レシピ習得状況の編集" >}}
   {{< card link="./thing-generator/" title="ThingGenerator" image="" subtitle="アイテム生成ツール" >}}
 {{< /cards >}}

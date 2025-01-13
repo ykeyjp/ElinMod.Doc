@@ -7,4 +7,10 @@ sidebar:
     open: true
 ---
 
-（準備中）
+アイテム生成ツールはシステムメニューから操作できます。
+
+{{< figure src="../img/system-menu.png" >}}
+
+
+{{< figure src="../img/item.png" >}}
+

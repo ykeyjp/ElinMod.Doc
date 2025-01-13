@@ -7,4 +7,9 @@ sidebar:
     open: true
 ---
 
-（準備中）
+レシピツールはシステムメニューから操作できます。
+
+{{< figure src="../img/system-menu.png" >}}
+
+
+{{< figure src="../img/recipe.png" >}}
