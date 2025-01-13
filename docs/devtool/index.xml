@@ -1,7 +1,56 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YK Elin Mod Doc – YK DevTool</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/</link><description>Recent content in YK DevTool on YK Elin Mod Doc</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0900</lastBuildDate><atom:link href="https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/index.xml" rel="self" type="application/rss+xml"/><item><title>キャラ編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-chara/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-chara/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>アイテム編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>拠点編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-branch/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-branch/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>ゾーン移動</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/teleport/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/teleport/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>レシピ習得</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>アイテム生成ツール</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YK Elin Mod Doc – YK DevTool</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/</link><description>Recent content in YK DevTool on YK Elin Mod Doc</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0900</lastBuildDate><atom:link href="https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/index.xml" rel="self" type="application/rss+xml"/><item><title>開発ツール</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/main/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/main/</guid><description>
+&lt;p>開発ツール（メインウィンドウ）はシステムメニューから操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/system-menu.png">
+&lt;/figure>
+&lt;h2>簡単操作&lt;span class="hx-absolute -hx-mt-20" id="簡単操作">&lt;/span>
+&lt;a href="#%e7%b0%a1%e5%8d%98%e6%93%8d%e4%bd%9c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/main1.png">
+&lt;/figure>
+&lt;h2>ゾーン移動&lt;span class="hx-absolute -hx-mt-20" id="ゾーン移動">&lt;/span>
+&lt;a href="#%e3%82%be%e3%83%bc%e3%83%b3%e7%a7%bb%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/main2.png">
+&lt;/figure>
+&lt;h2>拠点編集&lt;span class="hx-absolute -hx-mt-20" id="拠点編集">&lt;/span>
+&lt;a href="#%e6%8b%a0%e7%82%b9%e7%b7%a8%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/main3.png">
+&lt;/figure></description></item><item><title>キャラ編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-chara/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-chara/</guid><description>
+&lt;p>キャラクターをミドルクリックした時のコンテキストメニューにある「検査」から操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/chara-menu.png">
+&lt;/figure>
+&lt;h2>一般&lt;span class="hx-absolute -hx-mt-20" id="一般">&lt;/span>
+&lt;a href="#%e4%b8%80%e8%88%ac" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara1.png">
+&lt;/figure>
+&lt;h2>スキル&lt;span class="hx-absolute -hx-mt-20" id="スキル">&lt;/span>
+&lt;a href="#%e3%82%b9%e3%82%ad%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara2.png">
+&lt;/figure>
+&lt;h2>魔法&lt;span class="hx-absolute -hx-mt-20" id="魔法">&lt;/span>
+&lt;a href="#%e9%ad%94%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara3.png">
+&lt;/figure>
+&lt;h2>行動&lt;span class="hx-absolute -hx-mt-20" id="行動">&lt;/span>
+&lt;a href="#%e8%a1%8c%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara4.png">
+&lt;/figure></description></item><item><title>アイテム編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</guid><description>
+&lt;p>インベントリーやコンテナーのアイテムをミドルクリックした時のコンテキストメニューにある「検査」から操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/thing-menu.png">
+&lt;/figure>
+&lt;h2>一般&lt;span class="hx-absolute -hx-mt-20" id="一般">&lt;/span>
+&lt;a href="#%e4%b8%80%e8%88%ac" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing1.png">
+&lt;/figure>
+&lt;h2>エンチャント&lt;span class="hx-absolute -hx-mt-20" id="エンチャント">&lt;/span>
+&lt;a href="#%e3%82%a8%e3%83%b3%e3%83%81%e3%83%a3%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing2.png">
+&lt;/figure>
+&lt;h2>遺伝子&lt;span class="hx-absolute -hx-mt-20" id="遺伝子">&lt;/span>
+&lt;a href="#%e9%81%ba%e4%bc%9d%e5%ad%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing3.png">
+&lt;/figure>
+&lt;h2>スロット&lt;span class="hx-absolute -hx-mt-20" id="スロット">&lt;/span>
+&lt;a href="#%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing4.png">
+&lt;/figure>
+&lt;h2>矢弾&lt;span class="hx-absolute -hx-mt-20" id="矢弾">&lt;/span>
+&lt;a href="#%e7%9f%a2%e5%bc%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing5.png">
+&lt;/figure></description></item><item><title>レシピ習得</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</guid><description>
+&lt;p>レシピツールはシステムメニューから操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/system-menu.png">
+&lt;/figure>
+&lt;figure>&lt;img src="../img/recipe.png">
+&lt;/figure></description></item><item><title>アイテム生成ツール</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</guid><description>
+&lt;p>アイテム生成ツールはシステムメニューから操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/system-menu.png">
+&lt;/figure>
+&lt;figure>&lt;img src="../img/item.png">
+&lt;/figure></description></item></channel></rss>

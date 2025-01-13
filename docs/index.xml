@@ -148,7 +148,19 @@ class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hid
 &lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0">実際に&lt;code>UnityEngine.Resources.Load(&amp;quot;リソースID&amp;quot;)&lt;/code>をコールすれば生成されますが、内容や用途を確認していないものも多いので、検証の際は壊れても良いセーブデータで使用してください。&lt;br>
 オブジェクトを生成するだけで、セーブデータに反映されるような処理はないと思いますが念のため。&lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>ステップ1 － データの操作</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</guid><description>
+&lt;/div></description></item><item><title>開発ツール</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/main/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/main/</guid><description>
+&lt;p>開発ツール（メインウィンドウ）はシステムメニューから操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/system-menu.png">
+&lt;/figure>
+&lt;h2>簡単操作&lt;span class="hx-absolute -hx-mt-20" id="簡単操作">&lt;/span>
+&lt;a href="#%e7%b0%a1%e5%8d%98%e6%93%8d%e4%bd%9c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/main1.png">
+&lt;/figure>
+&lt;h2>ゾーン移動&lt;span class="hx-absolute -hx-mt-20" id="ゾーン移動">&lt;/span>
+&lt;a href="#%e3%82%be%e3%83%bc%e3%83%b3%e7%a7%bb%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/main2.png">
+&lt;/figure>
+&lt;h2>拠点編集&lt;span class="hx-absolute -hx-mt-20" id="拠点編集">&lt;/span>
+&lt;a href="#%e6%8b%a0%e7%82%b9%e7%b7%a8%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/main3.png">
+&lt;/figure></description></item><item><title>ステップ1 － データの操作</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</guid><description>
 &lt;p>ここでは簡単な例として所持しているアイテムの個数の改変を通して、データの操作について触れてみます。&lt;/p>
 &lt;h2>対象のアイテム（粗末な矢）&lt;span class="hx-absolute -hx-mt-20" id="対象のアイテム粗末な矢">&lt;/span>
 &lt;a href="#%e5%af%be%e8%b1%a1%e3%81%ae%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e7%b2%97%e6%9c%ab%e3%81%aa%e7%9f%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>今回はコンテナ（木箱）に入った粗末な矢を例にします。&lt;br>
@@ -569,12 +581,49 @@ target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-fon
 class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://github.com/Drakeny?tab=repositories&amp;amp;q=Elin"
 target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>&lt;/svg>Drakeny&lt;/span>&lt;/a>
 &lt;/div></description></item><item><title>キャラ編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-chara/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-chara/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>アイテム編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>拠点編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-branch/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-branch/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>ゾーン移動</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/teleport/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/teleport/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>レシピ習得</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>アイテム生成ツール</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</guid><description>
-&lt;p>（準備中）&lt;/p></description></item><item><title>Header</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/header/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/header/</guid><description>
+&lt;p>キャラクターをミドルクリックした時のコンテキストメニューにある「検査」から操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/chara-menu.png">
+&lt;/figure>
+&lt;h2>一般&lt;span class="hx-absolute -hx-mt-20" id="一般">&lt;/span>
+&lt;a href="#%e4%b8%80%e8%88%ac" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara1.png">
+&lt;/figure>
+&lt;h2>スキル&lt;span class="hx-absolute -hx-mt-20" id="スキル">&lt;/span>
+&lt;a href="#%e3%82%b9%e3%82%ad%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara2.png">
+&lt;/figure>
+&lt;h2>魔法&lt;span class="hx-absolute -hx-mt-20" id="魔法">&lt;/span>
+&lt;a href="#%e9%ad%94%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara3.png">
+&lt;/figure>
+&lt;h2>行動&lt;span class="hx-absolute -hx-mt-20" id="行動">&lt;/span>
+&lt;a href="#%e8%a1%8c%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara4.png">
+&lt;/figure></description></item><item><title>アイテム編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</guid><description>
+&lt;p>インベントリーやコンテナーのアイテムをミドルクリックした時のコンテキストメニューにある「検査」から操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/thing-menu.png">
+&lt;/figure>
+&lt;h2>一般&lt;span class="hx-absolute -hx-mt-20" id="一般">&lt;/span>
+&lt;a href="#%e4%b8%80%e8%88%ac" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing1.png">
+&lt;/figure>
+&lt;h2>エンチャント&lt;span class="hx-absolute -hx-mt-20" id="エンチャント">&lt;/span>
+&lt;a href="#%e3%82%a8%e3%83%b3%e3%83%81%e3%83%a3%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing2.png">
+&lt;/figure>
+&lt;h2>遺伝子&lt;span class="hx-absolute -hx-mt-20" id="遺伝子">&lt;/span>
+&lt;a href="#%e9%81%ba%e4%bc%9d%e5%ad%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing3.png">
+&lt;/figure>
+&lt;h2>スロット&lt;span class="hx-absolute -hx-mt-20" id="スロット">&lt;/span>
+&lt;a href="#%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing4.png">
+&lt;/figure>
+&lt;h2>矢弾&lt;span class="hx-absolute -hx-mt-20" id="矢弾">&lt;/span>
+&lt;a href="#%e7%9f%a2%e5%bc%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing5.png">
+&lt;/figure></description></item><item><title>レシピ習得</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</guid><description>
+&lt;p>レシピツールはシステムメニューから操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/system-menu.png">
+&lt;/figure>
+&lt;figure>&lt;img src="../img/recipe.png">
+&lt;/figure></description></item><item><title>アイテム生成ツール</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</guid><description>
+&lt;p>アイテム生成ツールはシステムメニューから操作できます。&lt;/p>
+&lt;figure>&lt;img src="../img/system-menu.png">
+&lt;/figure>
+&lt;figure>&lt;img src="../img/item.png">
+&lt;/figure></description></item><item><title>Header</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/header/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/header/</guid><description>
 &lt;p>装飾されたテキストを生成します。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="n">UIItem&lt;/span> &lt;span class="n">YKLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Header&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">Sprite&lt;/span>&lt;span class="p">?&lt;/span> &lt;span class="n">sprite&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>
