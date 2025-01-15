@@ -9,10 +9,12 @@ sidebar:
 
 ## YK DevToolとは？
 
-[YK Testing Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=3365678112)の後継として開発されたModです。  
+Modの開発やさまざまなデータ検証をフォローするツールとして開発されました。  
+キャラクターやアイテムのデータを編集したり、レシピ習得やアイテム生成を手助けする機能があります。
 
+[YK Testing Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=3365678112)の後継として開発されたModです。  
 `YK Testing Tool`自体もMod開発における実験的Modでした。  
-それらで得たノウハウをもとに、[YK Framework](../framework/) と `YK DevTool`を開発しました。
+そこで得たノウハウをもとに、UI構成支援Modの[YK Framework](../framework/) と開発支援Modの`YK DevTool`を開発しました。
 
 
 ## Modの導入
