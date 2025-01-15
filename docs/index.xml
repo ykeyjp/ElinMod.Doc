@@ -153,13 +153,22 @@ class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hid
 &lt;figure>&lt;img src="../img/system-menu.png">
 &lt;/figure>
 &lt;h2>簡単操作&lt;span class="hx-absolute -hx-mt-20" id="簡単操作">&lt;/span>
-&lt;a href="#%e7%b0%a1%e5%8d%98%e6%93%8d%e4%bd%9c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/main1.png">
+&lt;a href="#%e7%b0%a1%e5%8d%98%e6%93%8d%e4%bd%9c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>蘇生や通貨の獲得などちょっとしたアクションを実行できます。&lt;br>
+また、デバッグフラグのON/OFFも可能で、神モードや神建築モードもコマンドを実行しなくても有効にできます。&lt;/p>
+&lt;figure>&lt;img src="../img/main1.png">
 &lt;/figure>
 &lt;h2>ゾーン移動&lt;span class="hx-absolute -hx-mt-20" id="ゾーン移動">&lt;/span>
-&lt;a href="#%e3%82%be%e3%83%bc%e3%83%b3%e7%a7%bb%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/main2.png">
+&lt;a href="#%e3%82%be%e3%83%bc%e3%83%b3%e7%a7%bb%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>拠点や町、ネフィアに直接移動することができます。&lt;br>
+はじめて訪れるゾーンの場合、変な位置に入場する場合がありますのでご注意ください。&lt;br>
+別のゾーンに移動するかマップに入りなおしてください。&lt;/p>
+&lt;figure>&lt;img src="../img/main2.png">
 &lt;/figure>
 &lt;h2>拠点編集&lt;span class="hx-absolute -hx-mt-20" id="拠点編集">&lt;/span>
-&lt;a href="#%e6%8b%a0%e7%82%b9%e7%b7%a8%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/main3.png">
+&lt;a href="#%e6%8b%a0%e7%82%b9%e7%b7%a8%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>現在入場中の拠点のステータスを編集する機能です。&lt;br>
+スキルやフィート、ポリシーなどを編集できます。&lt;br>
+ゲーム仕様による獲得時のボーナスなど処理されないものがあるかもしれません。&lt;br>
+利用の際は留意してください。&lt;/p>
+&lt;figure>&lt;img src="../img/main3.png">
 &lt;/figure></description></item><item><title>ステップ1 － データの操作</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/analysis/step1/</guid><description>
 &lt;p>ここでは簡単な例として所持しているアイテムの個数の改変を通して、データの操作について触れてみます。&lt;/p>
 &lt;h2>対象のアイテム（粗末な矢）&lt;span class="hx-absolute -hx-mt-20" id="対象のアイテム粗末な矢">&lt;/span>
@@ -581,47 +590,84 @@ target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-fon
 class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://github.com/Drakeny?tab=repositories&amp;amp;q=Elin"
 target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>&lt;/svg>Drakeny&lt;/span>&lt;/a>
 &lt;/div></description></item><item><title>キャラ編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-chara/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-chara/</guid><description>
-&lt;p>キャラクターをミドルクリックした時のコンテキストメニューにある「検査」から操作できます。&lt;/p>
+&lt;p>キャラクターをミドルクリックした時のコンテキストメニューにある「検査」から操作できます。&lt;br>
+自キャラクターだけでなく、ミドルクリックできるほかのキャラクターすべて編集対象になります。&lt;/p>
 &lt;figure>&lt;img src="../img/chara-menu.png">
 &lt;/figure>
 &lt;h2>一般&lt;span class="hx-absolute -hx-mt-20" id="一般">&lt;/span>
-&lt;a href="#%e4%b8%80%e8%88%ac" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara1.png">
+&lt;a href="#%e4%b8%80%e8%88%ac" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>年齢などのフレーバー情報や、種族・職業など本来変更できないデータも編集できます。&lt;br>
+「専門+」はギルドで獲得できる追加の専門領域を指します。&lt;br>
+またオマケで乳や遺伝子、卵、剥製、カードなどのトレジャーを生成する機能もあります。&lt;/p>
+&lt;figure>&lt;img src="../img/chara1.png">
 &lt;/figure>
 &lt;h2>スキル&lt;span class="hx-absolute -hx-mt-20" id="スキル">&lt;/span>
-&lt;a href="#%e3%82%b9%e3%82%ad%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara2.png">
+&lt;a href="#%e3%82%b9%e3%82%ad%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>キャラクターのスキル構成を編集する機能です。&lt;br>
+Lv0のスキルを獲得させると対象を削除する機能として働きます。&lt;br>
+※削除が機能するのは、獲得済みスキルのLvをゼロにするのではなく画面上部の獲得ボタンの方です。&lt;/p>
+&lt;figure>&lt;img src="../img/chara2.png">
 &lt;/figure>
 &lt;h2>魔法&lt;span class="hx-absolute -hx-mt-20" id="魔法">&lt;/span>
-&lt;a href="#%e9%ad%94%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara3.png">
+&lt;a href="#%e9%ad%94%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>キャラクターの魔法構成を編集する機能です。&lt;br>
+Lv0の魔法を獲得させると対象を削除する機能として働きます。&lt;br>
+※削除が機能するのは、獲得済み魔法のLvをゼロにするのではなく画面上部の獲得ボタンの方です。&lt;/p>
+&lt;figure>&lt;img src="../img/chara3.png">
 &lt;/figure>
 &lt;h2>行動&lt;span class="hx-absolute -hx-mt-20" id="行動">&lt;/span>
-&lt;a href="#%e8%a1%8c%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/chara4.png">
+&lt;a href="#%e8%a1%8c%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>NPCの行動AIのスキル構成を編集できます。&lt;br>
+キャラクターに初期定義されたアクションは削除できません。&lt;/p>
+&lt;figure>&lt;img src="../img/chara4.png">
 &lt;/figure></description></item><item><title>アイテム編集</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/edit-thing/</guid><description>
-&lt;p>インベントリーやコンテナーのアイテムをミドルクリックした時のコンテキストメニューにある「検査」から操作できます。&lt;/p>
+&lt;p>インベントリーやコンテナーのアイテムをミドルクリックした時のコンテキストメニューにある「検査」から操作できます。&lt;br>
+自キャラクターの所持品だけでなく、インベントリー・コンテナー上でミドルクリックできるアイテムすべてが対象です。&lt;/p>
 &lt;figure>&lt;img src="../img/thing-menu.png">
 &lt;/figure>
 &lt;h2>一般&lt;span class="hx-absolute -hx-mt-20" id="一般">&lt;/span>
-&lt;a href="#%e4%b8%80%e8%88%ac" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing1.png">
+&lt;a href="#%e4%b8%80%e8%88%ac" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>素材や品質、重さ、強化値などを編集できます。&lt;br>
+コンテナーは大きさも編集できます。&lt;br>
+収納箱のような特殊なコンテナーの大きさは編集できません。&lt;/p>
+&lt;p>オマケで複製する機能もあります。&lt;br>
+ユニークアイテムの複製は特定のタイミングで片方が消滅するなどの補正がゲーム仕様にあります。&lt;/p>
+&lt;p>不要なアイテムは消滅ボタンで破壊することができます。&lt;br>
+開発中のModで追加したアイテムの処理などにご活用ください。&lt;/p>
+&lt;figure>&lt;img src="../img/thing1.png">
 &lt;/figure>
 &lt;h2>エンチャント&lt;span class="hx-absolute -hx-mt-20" id="エンチャント">&lt;/span>
-&lt;a href="#%e3%82%a8%e3%83%b3%e3%83%81%e3%83%a3%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing2.png">
+&lt;a href="#%e3%82%a8%e3%83%b3%e3%83%81%e3%83%a3%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>アイテムのエンチャントを編集できます。&lt;br>
+エンチャント獲得時のボーナス処理など本ツールで実行されない処理もありますのでご留意ください。&lt;/p>
+&lt;p>Lv0のエンチャントを獲得させると対象を削除する機能として働きます。&lt;br>
+※削除が機能するのは、獲得済みエンチャントのLvをゼロにするのではなく画面上部の獲得ボタンの方です。&lt;/p>
+&lt;figure>&lt;img src="../img/thing2.png">
 &lt;/figure>
 &lt;h2>遺伝子&lt;span class="hx-absolute -hx-mt-20" id="遺伝子">&lt;/span>
-&lt;a href="#%e9%81%ba%e4%bc%9d%e5%ad%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing3.png">
+&lt;a href="#%e9%81%ba%e4%bc%9d%e5%ad%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>遺伝子のDNA情報を編集できます。&lt;/p>
+&lt;figure>&lt;img src="../img/thing3.png">
 &lt;/figure>
 &lt;h2>スロット&lt;span class="hx-absolute -hx-mt-20" id="スロット">&lt;/span>
-&lt;a href="#%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing4.png">
+&lt;a href="#%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>遠距離武器のスロットを編集できます。&lt;br>
+スロットが足りない場合は先に追加を実行してください。&lt;br>
+「空っぽ」はすべてのスロットを空の状態にします。&lt;br>
+「すべて削除」はスロット自体をすべて削除します。&lt;/p>
+&lt;figure>&lt;img src="../img/thing4.png">
 &lt;/figure>
 &lt;h2>矢弾&lt;span class="hx-absolute -hx-mt-20" id="矢弾">&lt;/span>
-&lt;a href="#%e7%9f%a2%e5%bc%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;img src="../img/thing5.png">
+&lt;a href="#%e7%9f%a2%e5%bc%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>遠距離武器に装填されている矢弾のステータスを編集します。&lt;/p>
+&lt;figure>&lt;img src="../img/thing5.png">
 &lt;/figure></description></item><item><title>レシピ習得</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/recipe-tool/</guid><description>
 &lt;p>レシピツールはシステムメニューから操作できます。&lt;/p>
 &lt;figure>&lt;img src="../img/system-menu.png">
 &lt;/figure>
+&lt;p>レシピの習得状態を個別に編集できます。&lt;br>
+チェックボックスは習得しているかどうかのボタンです。&lt;br>
+数値入力はレシピのLvを指します。&lt;/p>
 &lt;figure>&lt;img src="../img/recipe.png">
 &lt;/figure></description></item><item><title>アイテム生成ツール</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/devtool/thing-generator/</guid><description>
 &lt;p>アイテム生成ツールはシステムメニューから操作できます。&lt;/p>
 &lt;figure>&lt;img src="../img/system-menu.png">
 &lt;/figure>
+&lt;p>生成する素材や個数などを設定し、アイテムのアイコンをクリックすると生成されます。&lt;br>
+素材を選択しない場合は仕様で設定されているデフォルト素材が使用されますが、通常プレイにおいて意図しない素材の場合もあるようです。&lt;br>
+対象アイテムリストはレシピ検索と異なり、レシピ習得状況に左右されずすべて表示されます。&lt;br>
+開発中のModで追加されるアイテムの生成などにお役立てください。&lt;/p>
 &lt;figure>&lt;img src="../img/item.png">
 &lt;/figure></description></item><item><title>Header</title><link>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/header/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0900</pubDate><guid>https://ykeyjp.github.io/ElinMod.Doc/docs/framework/refferences/header/</guid><description>
 &lt;p>装飾されたテキストを生成します。&lt;/p>
