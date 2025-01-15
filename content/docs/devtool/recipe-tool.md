@@ -11,5 +11,8 @@ sidebar:
 
 {{< figure src="../img/system-menu.png" >}}
 
+レシピの習得状態を個別に編集できます。  
+チェックボックスは習得しているかどうかのボタンです。  
+数値入力はレシピのLvを指します。
 
 {{< figure src="../img/recipe.png" >}}

@@ -17,9 +17,11 @@ sidebar:
 
 ## Modの導入
 
-次のリンクよりサブスクライブしてElinに`YK DevTool`を導入してください。
+次のリンクよりサブスクライブしてElinに`YK DevTool`を導入してください。  
+※`YK DevTool`の利用には`YK Framework`も必要です。
 
 {{< cards >}}
+  {{< card link="https://steamcommunity.com/sharedfiles/filedetails/?id=3400020753" title="YK Framework on Steam" icon="external-link" >}}
   {{< card link="https://steamcommunity.com/sharedfiles/filedetails/?id=3400020855" title="YK DevTool on Steam" icon="external-link" >}}
 {{< /cards >}}
 
